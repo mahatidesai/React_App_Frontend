@@ -1,0 +1,243 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.nav-button {
+  height: 6vh;
+  width: 6vw;
+  background-color: transparent;
+  color: rgb(2, 1, 41);
+  border: none;
+  border-radius: 1vh;
+  font-size: 1vw;
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-button:hover {
+  background-color: rgb(2, 1, 41);
+  color: white;
+}
+
+.nav-name {
+  font-size: 4vh;
+  color: black;
+}
+
+.hr1{
+  width: 70vw;
+}
+
+.hr2{
+  width: 40vw;
+}
+
+.card-holder {
+  display: flex;
+  flex-direction: row;
+  row-gap: 5vh;
+  column-gap: 3vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 5vh 2vw;
+}
+
+.card {
+  padding: 1rem;
+  width: 11vw;
+  height: 28vh;
+  background-color: #F5EFEB;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.card-body{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.circle{
+  height: 1.2vh;
+  width: 0.2vw;
+  background-color: black;
+  border-radius: 5vh;
+  align-self: flex-start;
+}
+
+.source{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.refresh-button{
+  height: 3vh;
+  width: 6vw;
+  margin-right: 10vw;
+  border: 1px solid black;
+  padding: 1vh;
+  border-radius: 0.5vh;
+  background-color: black;
+  color: #F5EFEB;
+  align-items: center;
+  text-align: center;
+  align-self: flex-end;
+  font-size: 2.5vh;
+  
+}
+
+.refresh-button:hover{
+  cursor: pointer;
+}
+
+.refreshing{
+  text-align: center;
+}
+
+
+@media (max-width: 1280px){
+
+  .nav-button {
+    height: 5vh;
+    width: 8vw;
+    font-size: 1.6vw;
+  }
+  
+  .nav-name {
+    font-size: 3.5vh;
+    color: black;
+  }
+
+  .card {
+    width: 16vw;
+    height: 25vh;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .circle{
+    height: 1.2vh;
+    width: 0.4vw;
+  }
+  .refresh-button{
+    height: 2.5vh;
+    width: 8vw;
+    font-size: 1.9vh;
+  }
+}
+
+@media (max-width: 768px){
+
+  .nav-button {
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.9vw;
+  }
+
+  .nav-name {
+    font-size: 3.2vh;
+    color: black;
+  }
+
+  .card {
+    width: 20vw;
+    height: 22vh;
+  }
+
+  .card-title{
+    font-size: 0.9rem;
+  }
+
+  .circle{
+    height: 1vh;
+    width: 0.4vw;
+  }
+
+  .refresh-button{
+    height: 2.5vh;
+    width: 8vw;
+    font-size: 1.9vh;
+  }
+}
+
+@media (max-width: 640px){
+
+  .nav-button {
+    height: 5vh;
+    width: 13vw;
+    font-size: 2.5vw;
+  }
+
+  .nav-name {
+    font-size: 3.2vh;
+    color: black;
+  }
+
+  .card-holder {
+    row-gap: 4vh;
+    column-gap: 8vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 5vh 2vw;
+  }
+
+  .card {
+    width: 26vw;
+    height: 18vh;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .circle{
+    height: 1vh;
+    width: 0.4vw;
+  }
+
+  .refresh-button{
+    height: 2vh;
+    width: 8vw;
+    font-size: 1.5vh;
+    
+  }
+}
