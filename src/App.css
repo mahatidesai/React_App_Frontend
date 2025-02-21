@@ -250,6 +250,11 @@ body {
     width: 0.4vw;
   }
 
+  .source-name{
+    font-size: 2.3vw;
+    font-weight: normal;
+  }
+
   .refresh-button{
     height: 2vh;
     width: 12vw;
