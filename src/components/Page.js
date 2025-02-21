@@ -32,7 +32,7 @@ export default function Page() {
                     articles.map((article, index) => (
                         <CCard key={index} className="card">
                             <div className="source">
-                                <div>Hindustan Times</div>
+                                <div className="source-name">Hindustan Times</div>
                                 <div className="circle"></div>    
                             </div>
                             <CCardBody className='card-body'>
